@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alberto Watch Company — Exceptional luxury timepieces crafted for those who appreciate precision, design and timeless elegance. Retail, repair and appraisal services.">
+    <meta name="keywords" content="luxury watches, watch repair, watch appraisal, Alberto Watch Company, timepieces">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Alberto Watch Company — Time, Redefined.">
+    <meta property="og:description" content="Exceptional luxury timepieces crafted for those who appreciate precision, design and timeless elegance.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/hero-watch.jpg">
+    
+    <title>Alberto Watch Company — Time, Redefined.</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo/alberto-emblem.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/collections.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/pricelist.css">
+    <link rel="stylesheet" href="css/technology.css">
+    <link rel="stylesheet" href="css/featured.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/store-locator.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+    <!-- ========================================
+         NAVIGATION
+         ======================================== -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar__inner container">
+            <!-- Logo -->
+            <a href="#home" class="navbar__logo" aria-label="Alberto Watch Company Home">
+                <svg viewBox="0 0 400 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="navbar__logo-svg">
+                    <g transform="translate(10, 5)">
+                        <circle cx="35" cy="35" r="33" stroke="#C8A96B" stroke-width="1.5" fill="none"/>
+                        <circle cx="35" cy="35" r="28" stroke="#C8A96B" stroke-width="0.5" fill="none"/>
+                        <line x1="35" y1="8" x2="35" y2="12" stroke="#C8A96B" stroke-width="1.2"/>
+                        <line x1="58" y1="35" x2="62" y2="35" stroke="#C8A96B" stroke-width="1.2"/>
+                        <line x1="35" y1="58" x2="35" y2="62" stroke="#C8A96B" stroke-width="1.2"/>
+                        <line x1="8" y1="35" x2="12" y2="35" stroke="#C8A96B" stroke-width="1.2"/>
+                        <circle cx="47.5" cy="12.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="57.5" cy="22.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="57.5" cy="47.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="47.5" cy="57.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="22.5" cy="57.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="12.5" cy="47.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="12.5" cy="22.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="22.5" cy="12.5" r="0.6" fill="#C8A96B"/>
+                        <line x1="25" y1="52" x2="35" y2="15" stroke="#C8A96B" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="45" y1="52" x2="35" y2="15" stroke="#C8A96B" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="28" y1="40" x2="42" y2="40" stroke="#C8A96B" stroke-width="1" stroke-linecap="round"/>
+                        <circle cx="35" cy="38" r="1.5" fill="#C8A96B"/>
+                    </g>
+                    <text x="90" y="35" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" letter-spacing="6" fill="#F5F1E8">ALBERTO</text>
+                    <text x="90" y="58" font-family="'Playfair Display', Georgia, serif" font-size="10" letter-spacing="8" fill="#C8A96B">WATCH COMPANY</text>
+                </svg>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <ul class="navbar__links" role="navigation">
+                <li><a href="#home" class="navbar__link navbar__link--active">Home</a></li>
+                <li><a href="#collections" class="navbar__link">Collections</a></li>
+                <li><a href="#products" class="navbar__link">Products</a></li>
+                <li><a href="#technology" class="navbar__link">Technology</a></li>
+                <li><a href="#about" class="navbar__link">About</a></li>
+                <li><a href="#stores" class="navbar__link">Stores</a></li>
+                <li><a href="#gallery" class="navbar__link">Gallery</a></li>
+                <li><a href="#contact" class="navbar__link">Contact</a></li>
+            </ul>
+
+            <!-- Right Actions -->
+            <div class="navbar__actions">
+                <!-- Search -->
+                <button class="navbar__action-btn navbar__search-btn" aria-label="Search">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                </button>
+                
+                <!-- Cart -->
+                <button class="navbar__action-btn navbar__cart-btn" aria-label="Cart">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <path d="M16 10a4 4 0 0 1-8 0"/>
+                    </svg>
+                    <span class="navbar__cart-badge" style="display:none;">0</span>
+                </button>
+
+                <!-- Visitor Count -->
+                <div class="navbar__visitor-count" title="Visitors">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                    <span class="navbar__visitor-number">12,847</span>
+                </div>
+
+                <!-- Mobile Hamburger -->
+                <button class="navbar__hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="navbar__hamburger-line"></span>
+                    <span class="navbar__hamburger-line"></span>
+                    <span class="navbar__hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Search Overlay -->
+        <div class="search-overlay" id="searchOverlay">
+            <div class="navbar__search-container">
+                <input type="text" class="navbar__search-input" id="searchInput" placeholder="Search timepieces..." autocomplete="off">
+                <button class="search-overlay__close" aria-label="Close search">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="navbar__mobile-menu" id="mobileMenu">
+            <div class="navbar__mobile-menu-inner">
+                <a href="#home" class="navbar__mobile-link">Home</a>
+                <a href="#collections" class="navbar__mobile-link">Collections</a>
+                <a href="#products" class="navbar__mobile-link">Products</a>
+                <a href="#technology" class="navbar__mobile-link">Technology</a>
+                <a href="#gallery" class="navbar__mobile-link">Gallery</a>
+                <a href="#about" class="navbar__mobile-link">About</a>
+                <a href="#stores" class="navbar__mobile-link">Stores</a>
+                <a href="#contact" class="navbar__mobile-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ========================================
+         HERO SECTION
+         ======================================== -->
+    <section class="hero" id="home">
+        <div class="hero__background">
+            <img src="assets/images/hero-watch.jpg" alt="Luxury Alberto timepiece" class="hero__bg-image">
+        </div>
+        <div class="hero__overlay"></div>
+        <canvas class="hero__particles" id="heroParticles"></canvas>
+        
+        <div class="hero__content">
+            <span class="hero__label animate-hero animate-hero--1">ALBERTO WATCH COMPANY</span>
+            <h1 class="hero__title animate-hero animate-hero--2">TIME, REDEFINED.</h1>
+            <p class="hero__description animate-hero animate-hero--3">Exceptional timepieces crafted for those who appreciate precision, design and timeless elegance.</p>
+            <div class="hero__buttons animate-hero animate-hero--4">
+                <a href="#products" class="btn-primary">Explore Collection</a>
+                <a href="#collections" class="btn-outline">Discover Luxury</a>
+            </div>
+        </div>
+
+        <div class="hero__scroll" aria-hidden="true">
+            <a href="#collections"><span class="hero__scroll-text">Scroll</span></a>
+            <!-- <div class="hero__scroll-line"></div> -->
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         BRAND MARQUEE
+         ======================================== -->
+    <section class="brands" id="brands">
+        <p class="brands__title">TIMELESS NAMES</p>
+        <div class="brands__wrapper">
+            <div class="brands__track" id="brandsTrack">
+                <div class="brands__item">ROLEX</div>
+                <div class="brands__item">OMEGA</div>
+                <div class="brands__item">MICHAEL KORS</div>
+                <div class="brands__item">CITIZEN</div>
+                <div class="brands__item">BULOVA</div>
+                <div class="brands__item">TAG HEUER</div>
+                <div class="brands__item">SEIKO</div>
+                <div class="brands__item">LONGINES</div>
+                <div class="brands__item">CITIZEN ECO-DRIVE</div>
+                <div class="brands__item">ALBERTO</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         COLLECTIONS
+         ======================================== -->
+    <section class="collections section-padding" id="collections">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Curated Selections</span>
+                <h2 class="section-title">THE COLLECTIONS</h2>
+                <p class="section-subtitle">Discover our carefully curated categories of exceptional timepieces</p>
+            </div>
+
+            <div class="collections__grid">
+                <!-- Luxury Collection -->
+                <div class="collection-card animate-on-scroll" data-category="luxury">
+                    <div class="collection-card__image">
+                        <img src="assets/images/luxury-collection.jpg" alt="Luxury watch collection">
+                    </div>
+                    <div class="collection-card__overlay"></div>
+                    <div class="collection-card__content">
+                        <div class="collection-card__line"></div>
+                        <h3 class="collection-card__title">Luxury</h3>
+                        <p class="collection-card__desc">Exquisite timepieces from the world's most prestigious maisons</p>
+                        <button class="collection-card__btn">
+                            Explore
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Vintage Collection -->
+                <div class="collection-card animate-on-scroll delay-1" data-category="vintage">
+                    <div class="collection-card__image">
+                        <img src="assets/images/vintage-collection.jpg" alt="Vintage watch collection">
+                    </div>
+                    <div class="collection-card__overlay"></div>
+                    <div class="collection-card__content">
+                        <div class="collection-card__line"></div>
+                        <h3 class="collection-card__title">Vintage</h3>
+                        <p class="collection-card__desc">Timeless classics that carry the soul of horological heritage</p>
+                        <button class="collection-card__btn">
+                            Explore
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Smart Watches Collection -->
+                <div class="collection-card animate-on-scroll delay-2" data-category="smart">
+                    <div class="collection-card__image">
+                        <img src="assets/images/smart-collection.jpg" alt="Smart watch collection">
+                    </div>
+                    <div class="collection-card__overlay"></div>
+                    <div class="collection-card__content">
+                        <div class="collection-card__line"></div>
+                        <h3 class="collection-card__title">Smart Watches</h3>
+                        <p class="collection-card__desc">Where traditional craftsmanship meets modern innovation</p>
+                        <button class="collection-card__btn">
+                            Explore
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         PRODUCT CATALOGUE
+         ======================================== -->
+    <section class="products section-padding" id="products">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Our Timepieces</span>
+                <h2 class="section-title">THE COLLECTION</h2>
+                <p class="section-subtitle">Browse our curated selection of exceptional watches and clocks</p>
+            </div>
+
+            <!-- Filters & Sort -->
+            <div class="products__controls animate-on-scroll">
+                <div class="products__filters" id="productFilters">
+                    <button class="filter-btn filter-btn--active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="luxury">Luxury</button>
+                    <button class="filter-btn" data-filter="vintage">Vintage</button>
+                    <button class="filter-btn" data-filter="smart">Smart Watches</button>
+                    <button class="filter-btn" data-filter="clocks">Clocks</button>
+                </div>
+                <div class="products__sort-wrapper">
+                    <select class="products__sort" id="productSort">
+                        <option value="featured">Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="name">Name</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="products__grid" id="productsGrid">
+                <!-- Products rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         PRICE LIST
+         ======================================== -->
+    <section class="pricelist section-padding" id="pricelist">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Catalogue</span>
+                <h2 class="section-title">PRICE LIST</h2>   
+            </div>
+
+            <div class="pricelist__wrapper animate-on-scroll">
+                <div class="pricelist__table-wrapper">
+                    <table class="pricelist__table" id="pricelistTable">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Brand</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pricelistBody">
+                            <!-- Rendered by JS -->
+                        </tbody>
+                    </table>
+                </div>
+                <button class="pricelist__toggle btn-outline" id="pricelistToggle">View Full Price List</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         TECHNOLOGY SECTION
+         ======================================== -->
+    <section class="technology section-padding" id="technology">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Innovation & Craft</span>
+                <h2 class="section-title">THE TECHNOLOGY</h2>
+                <p class="section-subtitle">The artistry and engineering behind every timepiece</p>
+            </div>
+
+            <div class="technology__grid">
+                <!-- Automatic Movement -->
+                <div class="tech-card animate-on-scroll" data-tech="automatic">
+                    <div class="tech-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="24" cy="24" r="20"/>
+                            <circle cx="24" cy="24" r="3"/>
+                            <path d="M24 8v6M24 34v6M8 24h6M34 24h6"/>
+                            <path d="M24 24l8-12" stroke-width="2"/>
+                            <path d="M24 24l-4 10"/>
+                        </svg>
+                    </div>
+                    <h3 class="tech-card__title">Automatic Movement</h3>
+                    <p class="tech-card__desc">Self-winding mechanical movements powered by the natural motion of the wearer's wrist. Hundreds of precision-engineered components work in harmony, requiring no battery — only the kinetic energy of daily life. A masterpiece of micro-engineering perfected over centuries.</p>
+                </div>
+
+                <!-- Quartz Precision -->
+                <div class="tech-card animate-on-scroll delay-1" data-tech="quartz">
+                    <div class="tech-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polygon points="24,4 28,18 42,18 30,27 34,42 24,32 14,42 18,27 6,18 20,18"/>
+                        </svg>
+                    </div>
+                    <h3 class="tech-card__title">Quartz Precision</h3>
+                    <p class="tech-card__desc">Quartz crystal oscillators vibrate at precisely 32,768 Hz, delivering accuracy within seconds per month. This revolutionary technology ensures that every moment is measured with unwavering precision, combining reliability with elegance.</p>
+                </div>
+
+                <!-- Eco-Drive -->
+                <div class="tech-card animate-on-scroll delay-2" data-tech="eco-drive">
+                    <div class="tech-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="24" cy="24" r="12"/>
+                            <path d="M24 4v8M24 36v8M4 24h8M36 24h8M10 10l6 6M32 32l6 6M10 38l6-6M32 16l6-6"/>
+                        </svg>
+                    </div>
+                    <h3 class="tech-card__title">Eco-Drive Technology</h3>
+                    <p class="tech-card__desc">Light-powered technology that converts any light source — natural or artificial — into energy. A single full charge can power the watch for months in complete darkness. Never needs a battery change, blending sustainability with luxury.</p>
+                </div>
+
+                <!-- Smart Watch Technology -->
+                <div class="tech-card animate-on-scroll delay-1" data-tech="smart">
+                    <div class="tech-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="12" y="6" width="24" height="36" rx="4"/>
+                            <rect x="16" y="12" width="16" height="16" rx="2"/>
+                            <line x1="20" y1="34" x2="28" y2="34"/>
+                            <circle cx="24" cy="20" r="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="tech-card__title">Smart Watch Technology</h3>
+                    <p class="tech-card__desc">Advanced sensors, AMOLED displays, and powerful processors merge traditional watchmaking aesthetics with modern connectivity. Health monitoring, notifications, GPS tracking, and countless apps — all from your wrist.</p>
+                </div>
+
+                <!-- Sapphire Crystal -->
+                <div class="tech-card animate-on-scroll delay-2" data-tech="sapphire">
+                    <div class="tech-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polygon points="24,6 38,16 38,32 24,42 10,32 10,16"/>
+                            <polygon points="24,14 32,20 32,30 24,36 16,30 16,20"/>
+                        </svg>
+                    </div>
+                    <h3 class="tech-card__title">Sapphire Crystal</h3>
+                    <p class="tech-card__desc">Scoring 9 on the Mohs hardness scale — second only to diamond — lab-grown sapphire crystal provides virtually scratch-proof protection. Anti-reflective coatings ensure crystal-clear legibility from every angle, preserving the dial's beauty for decades.</p>
+                </div>
+
+                <!-- Water Resistance -->
+                <div class="tech-card animate-on-scroll delay-3" data-tech="water">
+                    <div class="tech-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M24 6c0 0-14 16-14 26a14 14 0 0 0 28 0c0-10-14-26-14-26z"/>
+                            <path d="M18 30a6 6 0 0 0 6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="tech-card__title">Water Resistance</h3>
+                    <p class="tech-card__desc">Multi-layered sealing systems with screw-down crowns and case backs ensure protection from 30 metres of everyday splash resistance to 300+ metres for professional diving. Rigorous pressure testing guarantees reliability in the most demanding conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         FEATURED WATCH
+         ======================================== -->
+    <section class="featured" id="featured">
+        <div class="featured__image-wrapper">
+            <img src="assets/images/featured-watch.jpg" alt="Alberto Sovereign Chronograph" class="featured__image" loading="lazy">
+        </div>
+        <div class="featured__content">
+            <span class="featured__label animate-on-scroll">Featured Timepiece</span>
+            <h2 class="featured__title animate-on-scroll">Alberto Sovereign<br>Chronograph</h2>
+            <p class="featured__desc animate-on-scroll">The pinnacle of Alberto's watchmaking artistry. The Sovereign Chronograph embodies our commitment to precision engineering and timeless design. Each piece is meticulously assembled by master horologists, combining a Swiss automatic movement with an elegant rose gold case.</p>
+            
+            <div class="featured__specs animate-on-scroll">
+                <div class="featured__spec">
+                    <span class="featured__spec-label">Movement</span>
+                    <span class="featured__spec-value">Swiss Automatic</span>
+                </div>
+                <div class="featured__spec">
+                    <span class="featured__spec-label">Case</span>
+                    <span class="featured__spec-value">18K Rose Gold</span>
+                </div>
+                <div class="featured__spec">
+                    <span class="featured__spec-label">Crystal</span>
+                    <span class="featured__spec-value">Sapphire</span>
+                </div>
+                <div class="featured__spec">
+                    <span class="featured__spec-label">Water Resistance</span>
+                    <span class="featured__spec-value">100m</span>
+                </div>
+            </div>
+
+            <p class="featured__price animate-on-scroll">$12,500</p>
+            <button class="btn-primary featured__btn animate-on-scroll" data-product-id="1">View Details</button>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         ABOUT SECTION
+         ======================================== -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Our Story</span>
+                <h2 class="section-title">ABOUT ALBERTO</h2>
+            </div>
+
+            <div class="about__intro animate-on-scroll">
+                <p class="about__text">Alberto Watch Company is dedicated to providing exceptional timepieces for those who appreciate the art of horology. We specialize in luxury watches, vintage timepieces, and modern smart watches — offering retail, expert repair, and professional appraisal services.</p>
+                <p class="about__text">Our commitment to customer service ensures that every interaction reflects the same standard of excellence found in the timepieces we represent.</p>
+            </div>
+
+            <div class="about__services">
+                <!-- Retail -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-card__icon">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="18" cy="18" r="14"/>
+                            <path d="M18 8v10l6 4"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Luxury Retail</h3>
+                    <p class="service-card__desc">Curated collections of the world's finest timepieces, from heritage luxury brands to modern innovations. Expert guidance for every purchase.</p>
+                </div>
+
+                <!-- Repair -->
+                <div class="service-card animate-on-scroll delay-1">
+                    <div class="service-card__icon">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14 5l-3 3 7 7-7 7 3 3 10-10z"/>
+                            <circle cx="26" cy="26" r="6"/>
+                            <path d="M26 23v6M23 26h6"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Watch Repair</h3>
+                    <p class="service-card__desc">Expert watchmakers providing comprehensive repair services — from movement overhauls and crystal replacement to water resistance restoration. All work backed by our service guarantee.</p>
+                </div>
+
+                <!-- Appraisal -->
+                <div class="service-card animate-on-scroll delay-2">
+                    <div class="service-card__icon">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="14" cy="14" r="10"/>
+                            <path d="M22 22l10 10"/>
+                            <path d="M14 10v8M10 14h8"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Watch Appraisal</h3>
+                    <p class="service-card__desc">Professional valuation services for insurance, estate, and resale purposes. Detailed documentation of condition, authenticity, and market value by certified specialists.</p>
+                </div>
+
+                <!-- Customer Service -->
+                <div class="service-card animate-on-scroll delay-3">
+                    <div class="service-card__icon">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M18 30c7.732 0 14-6.268 14-14S25.732 2 18 2 4 8.268 4 16a13.9 13.9 0 0 0 2.2 7.5L4 30l6.5-2.2A13.9 13.9 0 0 0 18 30z"/>
+                            <path d="M12 16h.01M18 16h.01M24 16h.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-card__title">Customer Service</h3>
+                    <p class="service-card__desc">Dedicated support for every aspect of your horological journey. From purchase consultations to after-sale care, our team is committed to your complete satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         STORE LOCATOR
+         ======================================== -->
+    <section class="store-locator section-padding" id="stores">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Visit Us</span>
+                <h2 class="section-title">STORE LOCATOR</h2>
+                <p class="section-subtitle">Find an Alberto Watch Company location near you</p>
+            </div>
+
+            <div class="store-locator__wrapper animate-on-scroll">
+                <!-- Map Area -->
+                <div class="store-locator__map" id="storeMap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13499.756391066976!2d-115.1754189427703!3d32.23280628322097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d7c760008cf5d1%3A0xfc8606ff87b3544d!2s21730%20Alberto%20Oviedo%20Mota%2C%20Baja%20California%2C%20Mexico!5e0!3m2!1sen!2s!4v1791492316219!5m2!1sen!2s" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    
+                    <!-- <div class="store-locator__map-placeholder"> -->
+                        <!-- <svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M32 4C20.954 4 12 12.954 12 24c0 16 20 36 20 36s20-20 20-36C52 12.954 43.046 4 32 4z"/>
+                            <circle cx="32" cy="24" r="8"/>
+                        </svg>
+                        <p>Interactive Map</p>
+                        <span>Demo locations shown below</span> -->
+                        
+                </div>
+
+                <!-- Store List -->
+                <div class="store-locator__list">
+                    <div class="store-locator__search">
+                        <input type="text" class="store-locator__search-input" id="storeSearch" placeholder="Search by city or address...">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                        </svg>
+                    </div>
+
+                    <!-- Store Cards (Demo Locations) -->
+                    <div class="store-card" data-store="new-york">
+                        <h4 class="store-card__name">Alberto — Fifth Avenue</h4>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            750 Fifth Avenue, New York, NY 10019
+                        </p>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            Mon – Sat: 10:00 AM – 8:00 PM | Sun: 12:00 – 6:00 PM
+                        </p>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            +1 (212) 555-0100
+                        </p>
+                    </div>
+
+                    <div class="store-card" data-store="london">
+                        <h4 class="store-card__name">Alberto — Mayfair</h4>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            27 New Bond Street, London W1S 2RJ, UK
+                        </p>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            Mon – Sat: 10:00 AM – 7:00 PM | Sun: Closed
+                        </p>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            +44 20 7555 0100
+                        </p>
+                    </div>
+
+                    <div class="store-card" data-store="dubai">
+                        <h4 class="store-card__name">Alberto — Dubai Mall</h4>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            The Dubai Mall, Financial Centre Road, Dubai, UAE
+                        </p>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            Sun – Thu: 10:00 AM – 10:00 PM | Fri – Sat: 10:00 AM – 12:00 AM
+                        </p>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            +971 4 555 0100
+                        </p>
+                    </div>
+
+                    <div class="store-card" data-store="tokyo">
+                        <h4 class="store-card__name">Alberto — Ginza</h4>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            4-5-11 Ginza, Chuo-ku, Tokyo 104-0061, Japan
+                        </p>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            Daily: 11:00 AM – 8:00 PM
+                        </p>
+                        <p class="store-card__detail">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            +81 3-5555-0100
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         GALLERY
+         ======================================== -->
+    <section class="gallery section-padding" id="gallery">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Visual Journey</span>
+                <h2 class="section-title">THE GALLERY</h2>
+                <p class="section-subtitle">A curated visual collection of horological artistry</p>
+            </div>
+
+            <div class="gallery__grid" id="galleryGrid">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <button class="lightbox__close" aria-label="Close lightbox">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous image">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M15 18l-6-6 6-6"/>
+                </svg>
+            </button>
+            <img class="lightbox__image" id="lightboxImage" src="" alt="Gallery image">
+            <button class="lightbox__nav lightbox__nav--next" aria-label="Next image">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M9 18l6-6-6-6"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         CONTACT SECTION
+         ======================================== -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">CONTACT US</h2>
+                <p class="section-subtitle">We'd love to hear from you. Reach out for inquiries, appointments, or support.</p>
+            </div>
+
+            <div class="contact__grid">
+                <!-- Contact Form -->
+                <form class="contact__form animate-on-scroll" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="contactName">Full Name</label>
+                        <input type="text" id="contactName" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email Address</label>
+                        <input type="email" id="contactEmail" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject</label>
+                        <input type="text" id="contactSubject" name="subject" placeholder="How can we help?">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" name="message" rows="5" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary contact__submit">
+                        <span class="contact__submit-text">Send Message</span>
+                        <span class="contact__submit-loading" style="display:none;">Sending...</span>
+                    </button>
+                    <div class="form-success" id="formSuccess" style="display:none;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        <p>Thank you! Your message has been received. We'll be in touch shortly.</p>
+                    </div>
+                </form>
+
+                <!-- Contact Info -->
+                <div class="contact__info animate-on-scroll delay-1">
+                    <div class="contact__info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>750 Fifth Avenue<br>New York, NY 10019</p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+1 (212) 555-0100</p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>info@albertowatch.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+                        </svg>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon – Sat: 10:00 AM – 8:00 PM<br>Sun: 12:00 – 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ========================================
+         PRODUCT DETAIL MODAL
+         ======================================== -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal">
+            <button class="modal__close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="modal__image-wrapper">
+                <img class="modal__image" id="modalImage" src="" alt="Product image">
+            </div>
+            <div class="modal__content">
+                <span class="modal__brand" id="modalBrand"></span>
+                <h2 class="modal__name" id="modalName"></h2>
+                <p class="modal__price" id="modalPrice"></p>
+                <p class="modal__desc" id="modalDesc"></p>
+                
+                <div class="modal__specs" id="modalSpecs">
+                    <div class="modal__spec">
+                        <span class="modal__spec-label">Movement</span>
+                        <span class="modal__spec-value" id="specMovement"></span>
+                    </div>
+                    <div class="modal__spec">
+                        <span class="modal__spec-label">Case Material</span>
+                        <span class="modal__spec-value" id="specCase"></span>
+                    </div>
+                    <div class="modal__spec">
+                        <span class="modal__spec-label">Strap</span>
+                        <span class="modal__spec-value" id="specStrap"></span>
+                    </div>
+                    <div class="modal__spec">
+                        <span class="modal__spec-label">Dial</span>
+                        <span class="modal__spec-value" id="specDial"></span>
+                    </div>
+                    <div class="modal__spec">
+                        <span class="modal__spec-label">Water Resistance</span>
+                        <span class="modal__spec-value" id="specWater"></span>
+                    </div>
+                </div>
+
+                <div class="modal__actions">
+                    <button class="btn-primary modal__add-cart" id="modalAddCart">Add to Collection</button>
+                    <button class="btn-outline modal__close-btn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ========================================
+         TOAST NOTIFICATION
+         ======================================== -->
+    <div class="toast" id="toast">
+        <span class="toast__message" id="toastMessage"></span>
+    </div>
+
+
+    <!-- ========================================
+         FOOTER
+         ======================================== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <!-- About Column -->
+                <div class="footer__col">
+                    <div class="footer__logo">
+                                      <svg viewBox="0 0 400 80" fill="none" xmlns="http://www.w3.org/2000/svg" class="navbar__logo-svg">
+                    <g transform="translate(10, 5)">
+                        <circle cx="35" cy="35" r="33" stroke="#C8A96B" stroke-width="1.5" fill="none"/>
+                        <circle cx="35" cy="35" r="28" stroke="#C8A96B" stroke-width="0.5" fill="none"/>
+                        <line x1="35" y1="8" x2="35" y2="12" stroke="#C8A96B" stroke-width="1.2"/>
+                        <line x1="58" y1="35" x2="62" y2="35" stroke="#C8A96B" stroke-width="1.2"/>
+                        <line x1="35" y1="58" x2="35" y2="62" stroke="#C8A96B" stroke-width="1.2"/>
+                        <line x1="8" y1="35" x2="12" y2="35" stroke="#C8A96B" stroke-width="1.2"/>
+                        <circle cx="47.5" cy="12.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="57.5" cy="22.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="57.5" cy="47.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="47.5" cy="57.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="22.5" cy="57.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="12.5" cy="47.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="12.5" cy="22.5" r="0.6" fill="#C8A96B"/>
+                        <circle cx="22.5" cy="12.5" r="0.6" fill="#C8A96B"/>
+                        <line x1="25" y1="52" x2="35" y2="15" stroke="#C8A96B" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="45" y1="52" x2="35" y2="15" stroke="#C8A96B" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="28" y1="40" x2="42" y2="40" stroke="#C8A96B" stroke-width="1" stroke-linecap="round"/>
+                        <circle cx="35" cy="38" r="1.5" fill="#C8A96B"/>
+                    </g>
+                    <text x="90" y="35" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="700" letter-spacing="6" fill="#F5F1E8">ALBERTO</text>
+                    <text x="90" y="58" font-family="'Playfair Display', Georgia, serif" font-size="10" letter-spacing="8" fill="#C8A96B">WATCH COMPANY</text>
+                </svg>
+                    </div>
+                    <h4>Alberto Watch Company</h4>
+                    <p class="footer__about-text">Exceptional timepieces crafted for those who appreciate precision, design and timeless elegance.</p>
+                    <div class="footer__social">
+                        <a href="#" aria-label="Facebook" class="footer__social-link">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="footer__social-link">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter/X" class="footer__social-link">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="#" aria-label="YouTube" class="footer__social-link">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer__col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#pricelist">Price List</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer__col">
+                    <h4>Services</h4>
+                    <ul class="footer__links">
+                        <li><a href="#about">Luxury Retail</a></li>
+                        <li><a href="#about">Watch Repair</a></li>
+                        <li><a href="#about">Watch Appraisal</a></li>
+                        <li><a href="#about">Customer Support</a></li>
+                        <li><a href="#stores">Store Locator</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer__col">
+                    <h4>Newsletter</h4>
+                    <p class="footer__newsletter-text">Subscribe for exclusive updates, new arrivals and horological insights.</p>
+                    <form class="footer__newsletter" id="newsletterForm">
+                        <input type="email" class="footer__newsletter input" placeholder="Your email address" required>
+                        <button type="submit" class="footer__newsletter-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer__bottom">
+                <p>&copy; 2026   Alberto Watch Company. All rights reserved.</p>
+                <div class="footer__bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top -->
+        <button class="footer__back-to-top" id="backToTop" aria-label="Back to top">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="18 15 12 9 6 15"/>
+            </svg>
+        </button>
+    </footer>
+
+
+    <!-- ========================================
+         SCRIPTS
+         ======================================== -->
+    <script src="js/utils.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/brands.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

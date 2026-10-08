@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "brand": "Alberto",
+    "model": "Royal Tourbillon",
+    "name": "Alberto Royal Tourbillon",
+    "price": 45000,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&h=600&fit=crop",
+    "featured": true,
+    "specs": {
+      "movement": "Alberto Calibre V.X Manual-winding",
+      "caseMaterial": "18k Rose Gold",
+      "strapMaterial": "Black Alligator Leather",
+      "dial": "Skeletonized",
+      "waterResistance": "50m"
+    },
+    "description": "The pinnacle of Alberto's horological mastery, the Royal Tourbillon features a mesmerizing skeletonized dial that reveals the beating heart of our proprietary manual-winding calibre. Encased in warm 18k rose gold, this exceptional timepiece represents uncompromising luxury."
+  },
+  {
+    "id": 2,
+    "brand": "Rolex",
+    "model": "Submariner Date",
+    "name": "Rolex Submariner Date",
+    "price": 10500,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Automatic Calibre 3235",
+      "caseMaterial": "Oystersteel",
+      "strapMaterial": "Oystersteel",
+      "dial": "Black",
+      "waterResistance": "300m"
+    },
+    "description": "The quintessential divers' watch, featuring a distinctive black dial and large luminescent hour markers. Its robust and functional design has made it an enduring icon in the luxury sports watch category."
+  },
+  {
+    "id": 3,
+    "brand": "Rolex",
+    "model": "Cosmograph Daytona",
+    "name": "Rolex Cosmograph Daytona",
+    "price": 35000,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Automatic Calibre 4130",
+      "caseMaterial": "18k Yellow Gold",
+      "strapMaterial": "Oysterflex",
+      "dial": "Champagne",
+      "waterResistance": "100m"
+    },
+    "description": "Born to race, this legendary chronograph continues to be the ultimate instrument of choice for those who measure time on the track. The striking yellow gold case commands attention with unparalleled prestige."
+  },
+  {
+    "id": 4,
+    "brand": "Omega",
+    "model": "Speedmaster Professional",
+    "name": "Omega Speedmaster Professional",
+    "price": 6500,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Manual-winding Calibre 3861",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Stainless Steel",
+      "dial": "Black",
+      "waterResistance": "50m"
+    },
+    "description": "The iconic Moonwatch, known for its extraordinary history and reliable performance in space. A masterpiece of engineering that combines timeless aesthetics with cutting-edge anti-magnetic technology."
+  },
+  {
+    "id": 5,
+    "brand": "TAG Heuer",
+    "model": "Carrera Chronograph",
+    "name": "TAG Heuer Carrera Chronograph",
+    "price": 5800,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Automatic Calibre Heuer 02",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Blue Leather",
+      "dial": "Blue Sunray",
+      "waterResistance": "100m"
+    },
+    "description": "An elegant yet sporty chronograph inspired by motor racing heritage. The deep blue dial and premium leather strap create a sophisticated look for the modern gentleman."
+  },
+  {
+    "id": 6,
+    "brand": "Alberto",
+    "model": "Perpetual Calendar",
+    "name": "Alberto Perpetual Calendar",
+    "price": 28000,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1495857000853-fe46c8aefc30?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Alberto Calibre PC-1 Automatic",
+      "caseMaterial": "Platinum",
+      "strapMaterial": "Navy Blue Alligator",
+      "dial": "Silver Opaline",
+      "waterResistance": "30m"
+    },
+    "description": "A triumph of mechanical engineering that perfectly tracks the date, day, month, and leap year without adjustment until 2100. Housed in a rare platinum case, it embodies understated elegance and supreme capability."
+  },
+  {
+    "id": 7,
+    "brand": "Alberto",
+    "model": "Midnight Moonphase",
+    "name": "Alberto Midnight Moonphase",
+    "price": 18500,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1526045431048-f857369baa09?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Alberto Calibre M-2 Automatic",
+      "caseMaterial": "18k White Gold",
+      "strapMaterial": "Black Leather",
+      "dial": "Aventurine Glass",
+      "waterResistance": "30m"
+    },
+    "description": "Capture the poetry of the night sky on your wrist with our exquisite moonphase complication. The sparkling aventurine dial resembles a starry night, framed perfectly in an 18k white gold case."
+  },
+  {
+    "id": 8,
+    "brand": "Citizen",
+    "model": "Eco-Drive One",
+    "name": "Citizen Eco-Drive One",
+    "price": 3500,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Eco-Drive Calibre 8826",
+      "caseMaterial": "Cermet",
+      "strapMaterial": "Black Crocodile",
+      "dial": "Sapphire Crystal",
+      "waterResistance": "30m"
+    },
+    "description": "The world's thinnest light-powered watch, representing the absolute pinnacle of Citizen's technical prowess. An impossibly sleek luxury timepiece that never requires a battery change."
+  },
+  {
+    "id": 9,
+    "brand": "Bulova",
+    "model": "Precisionist High-Frequency",
+    "name": "Bulova Precisionist High-Frequency",
+    "price": 3200,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "High-Performance Quartz",
+      "caseMaterial": "Titanium",
+      "strapMaterial": "Titanium",
+      "dial": "Carbon Fiber",
+      "waterResistance": "300m"
+    },
+    "description": "Experience the smoothest sweeping second hand in horology with our proprietary ultra-high frequency movement. Unrivaled accuracy encased in lightweight, durable titanium."
+  },
+  {
+    "id": 10,
+    "brand": "Michael Kors",
+    "model": "Lexington Gold",
+    "name": "Michael Kors Lexington Gold",
+    "price": 3000,
+    "category": "luxury",
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Swiss Automatic",
+      "caseMaterial": "Gold-Tone Stainless Steel",
+      "strapMaterial": "Gold-Tone Stainless Steel",
+      "dial": "Champagne",
+      "waterResistance": "100m"
+    },
+    "description": "A bold statement piece that brings glamorous luxury to everyday wear. The textured bezel and gleaming gold-tone finish create a striking presence that commands the room."
+  },
+  {
+    "id": 11,
+    "brand": "Seiko",
+    "model": "King Seiko",
+    "name": "Seiko King Seiko",
+    "price": 1200,
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1611353229530-f17036b8479a?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Automatic 6R31",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Stainless Steel",
+      "dial": "Silver",
+      "waterResistance": "100m"
+    },
+    "description": "A faithful revival of a legendary 1960s design, featuring striking angular facets and immaculate finishing. True vintage charm paired with modern reliability."
+  },
+  {
+    "id": 12,
+    "brand": "Seiko",
+    "model": "Vintage Diver 62MAS",
+    "name": "Seiko Vintage Diver 62MAS",
+    "price": 4500,
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Automatic 8L35",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Black Silicone",
+      "dial": "Grey Sunburst",
+      "waterResistance": "200m"
+    },
+    "description": "A prestigious recreation of Seiko's very first diver's watch from 1965. It captures the adventurous spirit of the era while offering exceptional high-end mechanical performance."
+  },
+  {
+    "id": 13,
+    "brand": "Longines",
+    "model": "Heritage Classic",
+    "name": "Longines Heritage Classic",
+    "price": 2500,
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Automatic L893",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Brown Leather",
+      "dial": "Sector Dial",
+      "waterResistance": "30m"
+    },
+    "description": "Inspired by the geometric designs of the 1930s, this masterpiece features a striking sector dial. A perfect blend of art deco aesthetics and refined Swiss watchmaking."
+  },
+  {
+    "id": 14,
+    "brand": "Alberto",
+    "model": "1968 Diver",
+    "name": "Alberto 1968 Diver",
+    "price": 3500,
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1594534475808-b18fc33b045e?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Automatic Calibre A-68",
+      "caseMaterial": "Bronze",
+      "strapMaterial": "Distressed Leather",
+      "dial": "Faded Black",
+      "waterResistance": "200m"
+    },
+    "description": "Celebrating our deep-sea exploration heritage, the 1968 Diver is crafted in solid bronze that develops a unique patina over time. A rugged yet sophisticated tribute to the golden age of scuba."
+  },
+  {
+    "id": 15,
+    "brand": "Alberto",
+    "model": "Art Deco Tank",
+    "name": "Alberto Art Deco Tank",
+    "price": 2800,
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1526045431048-f857369baa09?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Manual-winding Calibre A-20",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Black Lizard",
+      "dial": "White Enamel",
+      "waterResistance": "30m"
+    },
+    "description": "Embodying the roaring twenties, this rectangular timepiece features elegant Roman numerals on a pristine white enamel dial. Pure vintage sophistication for the discerning collector."
+  },
+  {
+    "id": 16,
+    "brand": "Citizen",
+    "model": "Vintage Bullhead",
+    "name": "Citizen Vintage Bullhead",
+    "price": 850,
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Automatic Chronograph",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Steel Mesh",
+      "dial": "Panda",
+      "waterResistance": "50m"
+    },
+    "description": "A beloved 1970s icon recognizable by its top-mounted pushers and crown. This eccentric racing chronograph is a conversation starter dripping with retro appeal."
+  },
+  {
+    "id": 17,
+    "brand": "Bulova",
+    "model": "Accutron Spaceview",
+    "name": "Bulova Accutron Spaceview",
+    "price": 1500,
+    "category": "vintage",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Electronic Tuning Fork",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Green Leather",
+      "dial": "Skeleton",
+      "waterResistance": "30m"
+    },
+    "description": "The watch that changed history with its revolutionary tuning fork movement. The iconic open dial proudly displays the futuristic circuitry that defined the 1960s space age."
+  },
+  {
+    "id": 18,
+    "brand": "Garmin",
+    "model": "Fenix 7X Sapphire",
+    "name": "Garmin Fenix 7X Sapphire",
+    "price": 999,
+    "category": "smart",
+    "image": "https://images.unsplash.com/photo-1722445423163-f57f92ea9f78?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Smart Module",
+      "caseMaterial": "Titanium",
+      "strapMaterial": "Silicone",
+      "dial": "Digital Memory-in-Pixel",
+      "waterResistance": "100m"
+    },
+    "description": "The ultimate multisport GPS smartwatch for the serious athlete and adventurer. Features solar charging and a resilient sapphire lens to conquer any challenge."
+  },
+  {
+    "id": 19,
+    "brand": "Samsung",
+    "model": "Galaxy Watch 6 Classic",
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "price": 450,
+    "category": "smart",
+    "image": "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Smart Module",
+      "caseMaterial": "Stainless Steel",
+      "strapMaterial": "Eco-Leather",
+      "dial": "Super AMOLED",
+      "waterResistance": "50m"
+    },
+    "description": "Seamlessly blending traditional watch aesthetics with cutting-edge smart features. The iconic rotating bezel provides satisfying tactile control over your digital life."
+  },
+  {
+    "id": 20,
+    "brand": "Alberto",
+    "model": "Connect Elite",
+    "name": "Alberto Connect Elite",
+    "price": 1200,
+    "category": "smart",
+    "image": "https://images.unsplash.com/photo-1526045431048-f857369baa09?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Alberto Hybrid Smart",
+      "caseMaterial": "Ceramic",
+      "strapMaterial": "Milanese Loop",
+      "dial": "OLED Touch",
+      "waterResistance": "50m"
+    },
+    "description": "Where haute horlogerie meets tomorrow's technology. The Connect Elite tracks your wellness discreetly while maintaining the flawless finish of a traditional luxury timepiece."
+  },
+  {
+    "id": 21,
+    "brand": "Alberto",
+    "model": "Sport Touch",
+    "name": "Alberto Sport Touch",
+    "price": 850,
+    "category": "smart",
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Alberto Smart OS",
+      "caseMaterial": "Forged Carbon",
+      "strapMaterial": "Fluoroelastomer",
+      "dial": "AMOLED",
+      "waterResistance": "100m"
+    },
+    "description": "Engineered for peak performance, crafted for style. Forged carbon construction ensures it remains light on the wrist while delivering comprehensive health insights."
+  },
+  {
+    "id": 22,
+    "brand": "Michael Kors",
+    "model": "Access Gen 6",
+    "name": "Michael Kors Access Gen 6",
+    "price": 350,
+    "category": "smart",
+    "image": "https://images.unsplash.com/photo-1709101051601-5cee6a1ff5fe?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Wear OS",
+      "caseMaterial": "Rose Gold-Tone Steel",
+      "strapMaterial": "Rose Gold-Tone Steel",
+      "dial": "Touchscreen",
+      "waterResistance": "30m"
+    },
+    "description": "Stay connected in spectacular style. This dazzling smartwatch keeps your schedule on track while sparkling with signature Michael Kors glamour."
+  },
+  {
+    "id": 23,
+    "brand": "Michael Kors",
+    "model": "Bradshaw Smart",
+    "name": "Michael Kors Bradshaw Smart",
+    "price": 395,
+    "category": "smart",
+    "image": "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Wear OS",
+      "caseMaterial": "Two-Tone Steel",
+      "strapMaterial": "Two-Tone Steel",
+      "dial": "Touchscreen",
+      "waterResistance": "30m"
+    },
+    "description": "A robust and stylish companion for the modern lifestyle. The Bradshaw combines classic oversized design with intelligent notifications and fitness tracking."
+  },
+  {
+    "id": 24,
+    "brand": "Alberto",
+    "model": "Voyager Smart",
+    "name": "Alberto Voyager Smart",
+    "price": 950,
+    "category": "smart",
+    "image": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Alberto Smart OS",
+      "caseMaterial": "Brushed Titanium",
+      "strapMaterial": "Leather",
+      "dial": "OLED Touch",
+      "waterResistance": "50m"
+    },
+    "description": "Designed for the global traveler, the Voyager seamlessly adjusts to new time zones and tracks your itinerary. Exceptional luxury fused with intelligent connectivity."
+  },
+  {
+    "id": 25,
+    "brand": "Alberto",
+    "model": "Active Pro",
+    "name": "Alberto Active Pro",
+    "price": 750,
+    "category": "smart",
+    "image": "https://images.unsplash.com/photo-1786124967103-875dda046e85?qw=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Alberto Smart OS",
+      "caseMaterial": "Aluminum",
+      "strapMaterial": "Nylon Weave",
+      "dial": "AMOLED",
+      "waterResistance": "50m"
+    },
+    "description": "A sleek, lightweight companion for your active lifestyle. Delivers brilliant visuals and precise health tracking in a beautifully minimalist design."
+  },
+  {
+    "id": 26,
+    "brand": "Howard Miller",
+    "model": "Stewart Grandfather Clock",
+    "name": "Howard Miller Stewart Grandfather Clock",
+    "price": 3500,
+    "category": "clocks",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Cable-driven Westminster Chime",
+      "caseMaterial": "Cherry Wood",
+      "strapMaterial": "N/A",
+      "dial": "Brass with Silver Chapter Ring",
+      "waterResistance": "None"
+    },
+    "description": "An heirloom piece of exceptional craftsmanship that anchors any room with majesty. Features elaborate carvings, a classic moon phase dial, and soothing Westminster chimes."
+  },
+  {
+    "id": 27,
+    "brand": "Howard Miller",
+    "model": "Langeland Mantel Clock",
+    "name": "Howard Miller Langeland Mantel Clock",
+    "price": 850,
+    "category": "clocks",
+    "image": "https://images.unsplash.com/photo-1772949399884-01ec45bc5763?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Key-wound Triple Chime",
+      "caseMaterial": "Oak",
+      "strapMaterial": "N/A",
+      "dial": "Vintage Parchment",
+      "waterResistance": "None"
+    },
+    "description": "A charming addition to your study or living space, exuding traditional warmth. Offers a choice of three melodic chimes housed in a beautifully finished oak tambour case."
+  },
+  {
+    "id": 28,
+    "brand": "Hermle",
+    "model": "Tellurium Skeleton Clock",
+    "name": "Hermle Tellurium Skeleton Clock",
+    "price": 3200,
+    "category": "clocks",
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "8-Day Mechanical",
+      "caseMaterial": "Brass and Glass",
+      "strapMaterial": "N/A",
+      "dial": "Skeleton",
+      "waterResistance": "None"
+    },
+    "description": "A mesmerizing mechanical marvel that displays the orbit of the Earth and Moon around the Sun. An exquisite astronomical complication proudly showcased in glass and polished brass."
+  },
+  {
+    "id": 29,
+    "brand": "Alberto",
+    "model": "Executive Desk Clock",
+    "name": "Alberto Executive Desk Clock",
+    "price": 1500,
+    "category": "clocks",
+    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Swiss Quartz",
+      "caseMaterial": "Mahogany and Rose Gold",
+      "strapMaterial": "N/A",
+      "dial": "Black Guilloche",
+      "waterResistance": "None"
+    },
+    "description": "The ultimate statement accessory for the corner office. Handcrafted from rich mahogany and detailed with 18k rose gold, featuring a striking guilloche dial."
+  },
+  {
+    "id": 30,
+    "brand": "Hermle",
+    "model": "Modern Wall Clock",
+    "name": "Hermle Modern Wall Clock",
+    "price": 650,
+    "category": "clocks",
+    "image": "https://images.unsplash.com/photo-1595780784502-64b04f614781?w=600&h=600&fit=crop",
+    "featured": false,
+    "specs": {
+      "movement": "Quartz Pendulum",
+      "caseMaterial": "Walnut and Glass",
+      "strapMaterial": "N/A",
+      "dial": "Minimalist White",
+      "waterResistance": "None"
+    },
+    "description": "A stunning architectural timepiece that blends minimalist design with natural warmth. The sleek glass and rich walnut create a perfect harmony for contemporary interiors."
+  }
+]

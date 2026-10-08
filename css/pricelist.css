@@ -1,0 +1,104 @@
+/* pricelist.css */
+.pricelist {
+  padding: 5rem 5%;
+  background: var(--obsidian);
+}
+
+.pricelist__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pricelist__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.pricelist__label {
+  font-family: 'Playfair Display', serif;
+  color: var(--soft-gray);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 1rem;
+  display: block;
+}
+
+.pricelist__table-wrapper {
+  overflow-x: auto;
+  background: var(--charcoal);
+  border-radius: 4px;
+  border: 1px solid rgba(200, 169, 107, 0.2);
+  margin-bottom: 20px;
+}
+
+.pricelist__table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.pricelist__table thead {
+  background: var(--gold);
+  color: var(--obsidian);
+}
+
+.pricelist__table th {
+  padding: 1.25rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.pricelist__table td {
+  padding: 1.25rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--ivory);
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.pricelist__table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.pricelist__table tbody tr:hover {
+  background: rgba(200, 169, 107, 0.05);
+}
+
+.pricelist__table td.price {
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.pricelist__actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.pricelist__toggle {
+  padding: 0.8rem 2rem;
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.pricelist__toggle:hover {
+  background: var(--gold);
+  color: var(--obsidian);
+}
+
+@media (max-width: 768px) {
+  .pricelist__table th, .pricelist__table td {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}

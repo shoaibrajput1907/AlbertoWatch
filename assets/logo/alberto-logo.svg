@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" fill="none">
+  <defs>
+    <style>
+      .logo-gold { fill: #C8A96B; }
+      .logo-ivory { fill: #F5F1E8; }
+      .logo-text { font-family: 'Playfair Display', Georgia, serif; }
+    </style>
+  </defs>
+  
+  <!-- Emblem: Circular watch bezel with A and clock hands -->
+  <g transform="translate(10, 5)">
+    <!-- Outer circle (watch bezel) -->
+    <circle cx="35" cy="35" r="33" stroke="#C8A96B" stroke-width="1.5" fill="none"/>
+    <!-- Inner circle -->
+    <circle cx="35" cy="35" r="28" stroke="#C8A96B" stroke-width="0.5" fill="none"/>
+    
+    <!-- Hour markers (12, 3, 6, 9) -->
+    <line x1="35" y1="8" x2="35" y2="12" stroke="#C8A96B" stroke-width="1.2"/>
+    <line x1="58" y1="35" x2="62" y2="35" stroke="#C8A96B" stroke-width="1.2"/>
+    <line x1="35" y1="58" x2="35" y2="62" stroke="#C8A96B" stroke-width="1.2"/>
+    <line x1="8" y1="35" x2="12" y2="35" stroke="#C8A96B" stroke-width="1.2"/>
+    
+    <!-- Small hour markers -->
+    <circle cx="47.5" cy="12.5" r="0.6" fill="#C8A96B"/>
+    <circle cx="57.5" cy="22.5" r="0.6" fill="#C8A96B"/>
+    <circle cx="57.5" cy="47.5" r="0.6" fill="#C8A96B"/>
+    <circle cx="47.5" cy="57.5" r="0.6" fill="#C8A96B"/>
+    <circle cx="22.5" cy="57.5" r="0.6" fill="#C8A96B"/>
+    <circle cx="12.5" cy="47.5" r="0.6" fill="#C8A96B"/>
+    <circle cx="12.5" cy="22.5" r="0.6" fill="#C8A96B"/>
+    <circle cx="22.5" cy="12.5" r="0.6" fill="#C8A96B"/>
+    
+    <!-- Letter A integrated as watch hands -->
+    <!-- Left leg of A (hour hand) -->
+    <line x1="25" y1="52" x2="35" y2="15" stroke="#C8A96B" stroke-width="2" stroke-linecap="round"/>
+    <!-- Right leg of A (minute hand) -->
+    <line x1="45" y1="52" x2="35" y2="15" stroke="#C8A96B" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Crossbar of A -->
+    <line x1="28" y1="40" x2="42" y2="40" stroke="#C8A96B" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Center pinion dot -->
+    <circle cx="35" cy="38" r="1.5" fill="#C8A96B"/>
+  </g>
+  
+  <!-- Brand text -->
+  <text x="90" y="35" class="logo-text logo-ivory" font-size="28" font-weight="700" letter-spacing="6">ALBERTO</text>
+  <text x="90" y="58" class="logo-text" font-size="10" letter-spacing="8" fill="#C8A96B">WATCH COMPANY</text>
+</svg>

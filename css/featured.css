@@ -1,0 +1,127 @@
+/* featured.css */
+.featured {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  background: var(--obsidian);
+  border-top: 1px solid rgba(200, 169, 107, 0.1);
+  border-bottom: 1px solid rgba(200, 169, 107, 0.1);
+}
+
+.featured__image-wrapper {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.featured__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+}
+
+.featured:hover .featured__image {
+  transform: scale(1.05);
+}
+
+.featured__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 10%;
+  background: var(--charcoal);
+}
+
+.featured__label {
+  font-family: 'Inter', sans-serif;
+  color: var(--gold);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+}
+
+.featured__title {
+  font-family: 'Playfair Display', serif;
+  color: var(--ivory);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.featured__desc {
+  font-family: 'Inter', sans-serif;
+  color: var(--soft-gray);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.featured__specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(200, 169, 107, 0.2);
+}
+
+.featured-spec {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.featured-spec__label {
+  font-family: 'Inter', sans-serif;
+  color: var(--gold);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.featured-spec__value {
+  font-family: 'Inter', sans-serif;
+  color: var(--ivory);
+  font-size: 0.9rem;
+}
+
+.featured__price {
+  font-family: 'Playfair Display', serif;
+  color: var(--gold);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.featured__btn {
+  align-self: flex-start;
+  padding: 1rem 2.5rem;
+  background: var(--gold);
+  color: var(--obsidian);
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.featured__btn:hover {
+  background: var(--deep-gold);
+}
+
+@media (max-width: 992px) {
+  .featured {
+    grid-template-columns: 1fr;
+  }
+  .featured__image-wrapper {
+    min-height: 50vh;
+  }
+  .featured__content {
+    padding: 3rem 5%;
+  }
+}
