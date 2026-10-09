@@ -185,3 +185,6 @@
   display: inline-block;
   margin: 15px 0 ;
 }
+.filter-btn:focus {
+color: var(--gold);
+}
